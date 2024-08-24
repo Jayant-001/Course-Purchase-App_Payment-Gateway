@@ -84,7 +84,7 @@ const CourseCard = ({ course }: Props) => {
                         .post("/api/verify-payment", options)
                         .then((res) => {
                             if (res.data.success) {
-                                alert("Payment verification success.");
+                                alert("Payment completed.");
                             } else {
                                 alert("Payment verification failed.");
                             }

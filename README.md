@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Course Purchase App
 
-## Getting Started
+This is a Next.js application that allows users to browse a list of courses and purchase them using Razorpay as the payment gateway. The application is styled using Tailwind CSS and Shadcn for the user interface.
 
-First, run the development server:
+## Features
+
+- **Course Listing**: Displays a list of available courses.
+- **Course Purchase**: Allows users to purchase a course with Razorpay.
+- **Responsive Design**: Uses Tailwind CSS for styling and responsive design.
+- **User Notifications**: Alerts users upon successful payment.
+
+## Tech Stack
+
+- **Next.js**: Framework for building React applications.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Shadcn**: Component library for UI components.
+- **Razorpay**: Payment gateway for processing transactions.
+
+## Setup
+
+To get this application up and running locally, follow these steps:
+
+### 1. Clone the Repository
 
 ```bash
+git clone https://github.com/yourusername/course-purchase-app.git
+cd course-purchase-app
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+# or
+yarn install
+
+```
+
+### 3. Configure Environment Variables
+Create a .env.local file in the root directory of the project and add your environment variables:
+
+```
+RAZORPAY_KEY_ID=your_razorpay_key_id
+RAZORPAY_KEY_SECRET=your_razorpay_key_secret
+SERVER_URL=http://localhost:3000
+
+NEXT_PUBLIC_RAZORPAY_KEY_ID=your_public_razorpay_key_id
+
+```
+
+Replace your_razorpay_key_id, your_razorpay_key_secret, and your_public_razorpay_key_id with your actual Razorpay credentials.
+
+### 4. Run the Development Server
+
+```
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Open your browser and navigate to http://localhost:3000 to see the application in action.
