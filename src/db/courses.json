@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "title": "Introduction to Python",
+        "description": "Learn the basics of Python programming from scratch.",
+        "price": 249.99,
+        "duration": 10,
+        "instructor": "John Doe"
+    },
+    {
+        "id": 2,
+        "title": "Advanced JavaScript",
+        "description": "Deep dive into advanced JavaScript concepts and techniques.",
+        "price": 395.99,
+        "duration": 15,
+        "instructor": "Jane Smith"
+    },
+    {
+        "id": 3,
+        "title": "Full Stack Web Development",
+        "description": "Comprehensive course covering both front-end and back-end development.",
+        "price": 497.99,
+        "duration": 25,
+        "instructor": "Alex Johnson"
+    },
+    {
+        "id": 4,
+        "title": "Data Science with R",
+        "description": "Learn data science fundamentals using R programming language.",
+        "price": 354.99,
+        "duration": 20,
+        "instructor": "Emily Davis"
+    },
+    {
+        "id": 5,
+        "title": "Machine Learning Basics",
+        "description": "Get started with machine learning algorithms and concepts.",
+        "price": 445.0,
+        "duration": 30,
+        "instructor": "Michael Brown"
+    },
+    {
+        "id": 6,
+        "title": "Introduction to SQL",
+        "description": "Learn the basics of SQL for database management.",
+        "price": 194.99,
+        "duration": 12,
+        "instructor": "Sarah Wilson"
+    },
+    {
+        "id": 7,
+        "title": "React.js for Beginners",
+        "description": "A step-by-step guide to building web applications with React.js.",
+        "price": 392.99,
+        "duration": 18,
+        "instructor": "David Clark"
+    },
+    {
+        "id": 8,
+        "title": "UI/UX Design Fundamentals",
+        "description": "Learn the principles of user interface and user experience design.",
+        "price": 254.0,
+        "duration": 14,
+        "instructor": "Linda Lee"
+    },
+    {
+        "id": 9,
+        "title": "Cloud Computing with AWS",
+        "description": "Understand the fundamentals of cloud computing using AWS services.",
+        "price": 545.99,
+        "duration": 22,
+        "instructor": "James Taylor"
+    },
+    {
+        "id": 10,
+        "title": "Introduction to Django",
+        "description": "Build web applications using the Django framework in Python.",
+        "price": 428.0,
+        "duration": 16,
+        "instructor": "Sophia Martinez"
+    },
+    {
+        "id": 11,
+        "title": "Android App Development",
+        "description": "Learn how to create Android apps using Kotlin and Android Studio.",
+        "price": 477.0,
+        "duration": 24,
+        "instructor": "John Kim"
+    },
+    {
+        "id": 12,
+        "title": "Introduction to C++",
+        "description": "Master the basics of C++ programming with hands-on examples.",
+        "price": 282.0,
+        "duration": 13,
+        "instructor": "Rachel Green"
+    },
+    {
+        "id": 13,
+        "title": "DevOps Essentials",
+        "description": "Understand the fundamentals of DevOps practices and tools.",
+        "price": 376.5,
+        "duration": 17,
+        "instructor": "Paul Adams"
+    },
+    {
+        "id": 14,
+        "title": "Cybersecurity Basics",
+        "description": "Learn the basics of cybersecurity and how to protect your systems.",
+        "price": 324.0,
+        "duration": 19,
+        "instructor": "Karen White"
+    },
+    {
+        "id": 15,
+        "title": "Game Development with Unity",
+        "description": "Create engaging 2D and 3D games using Unity game engine.",
+        "price": 493.99,
+        "duration": 26,
+        "instructor": "George Harris"
+    },
+    {
+        "id": 16,
+        "title": "Intro to Data Visualization",
+        "description": "Learn how to visualize data effectively using various tools.",
+        "price": 302.0,
+        "duration": 15,
+        "instructor": "Anna Scott"
+    },
+    {
+        "id": 17,
+        "title": "APIs with Python",
+        "description": "Develop and consume APIs using Python and Flask.",
+        "price": 355.0,
+        "duration": 20,
+        "instructor": "Brian King"
+    },
+    {
+        "id": 18,
+        "title": "Vue.js Essentials",
+        "description": "Get started with Vue.js to build interactive web applications.",
+        "price": 407.0,
+        "duration": 21,
+        "instructor": "Olivia Young"
+    },
+    {
+        "id": 19,
+        "title": "Introduction to MATLAB",
+        "description": "Explore the basics of MATLAB for mathematical computing and data analysis.",
+        "price": 343.5,
+        "duration": 18,
+        "instructor": "Ethan Lee"
+    },
+    {
+        "id": 20,
+        "title": "Introduction to Swift",
+        "description": "Learn Swift programming to build iOS applications from scratch.",
+        "price": 368.0,
+        "duration": 22,
+        "instructor": "Isabella Taylor"
+    }
+]
